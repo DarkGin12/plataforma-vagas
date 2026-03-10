@@ -1,14 +1,28 @@
 import { Link } from "react-router-dom";
+import { useState, useEffect } from "react";
 
-function Header({ toggleDark, dark }) {
+function Header() {
+
+  const [dark, setDark] = useState(false);
+
+  useEffect(() => {
+    if (dark) {
+      document.body.classList.add("dark-mode");
+    } else {
+      document.body.classList.remove("dark-mode");
+    }
+  }, [dark]);
+
+  function toggleDark() {
+    setDark(!dark);
+  }
 
   return (
     <header className="header">
 
-      <h2 className="logo">MY FIRST JOB</h2>
+      <h2>MY FIRST JOB</h2>
 
-      <nav className="nav">
-
+      <nav>
         <Link to="/">Início</Link>
         <Link to="/vagas">Tarefas</Link>
         <Link to="/login">Login</Link>
