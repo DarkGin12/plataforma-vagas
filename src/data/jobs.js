@@ -1,23 +1,122 @@
-const jobs = [
-
+export const jobs = [
   {
     id: 1,
-    title: "Frontend React",
-    company: "Startup Tech",
-    stacks: ["React", "JavaScript", "CSS"],
-    description: "Criar interface de dashboard",
-    deadline: "7 dias"
+    title: 'Frontend React Developer',
+    company: 'Startup Tech',
+    stacks: ['React', 'JavaScript', 'CSS'],
+    description: 'Procuramos um desenvolvedor React júnior para criar interfaces modernas e responsivas.',
+    deadline: '7 dias',
+    level: 'junior',
+    location: 'São Paulo, SP',
+    type: 'remoto',
+    salary: 'R$ 2.500 - R$ 3.500'
   },
-
   {
     id: 2,
-    title: "Backend Java",
-    company: "DevCompany",
-    stacks: ["Java", "Spring Boot"],
-    description: "Criar API REST",
-    deadline: "10 dias"
+    title: 'Backend Node.js Developer',
+    company: 'DevCompany',
+    stacks: ['Node.js', 'Express', 'MongoDB'],
+    description: 'Desenvolvedor backend júnior para trabalhar com APIs REST e banco de dados.',
+    deadline: '5 dias',
+    level: 'junior',
+    location: 'Rio de Janeiro, RJ',
+    type: 'remoto',
+    salary: 'R$ 2.800 - R$ 3.800'
+  },
+  {
+    id: 3,
+    title: 'Full Stack Developer',
+    company: 'Tech Solutions',
+    stacks: ['React', 'Node.js', 'PostgreSQL'],
+    description: 'Desenvolvedor full stack júnior para trabalhar em projetos completos.',
+    deadline: '10 dias',
+    level: 'junior',
+    location: 'Belo Horizonte, MG',
+    type: 'presencial',
+    salary: 'R$ 3.000 - R$ 4.000'
+  },
+  {
+    id: 4,
+    title: 'Frontend Vue.js Developer',
+    company: 'Digital Agency',
+    stacks: ['Vue.js', 'JavaScript', 'Tailwind CSS'],
+    description: 'Desenvolvedor Vue.js júnior para criar aplicações web interativas.',
+    deadline: '6 dias',
+    level: 'junior',
+    location: 'Brasília, DF',
+    type: 'remoto',
+    salary: 'R$ 2.400 - R$ 3.400'
+  },
+  {
+    id: 5,
+    title: 'Mobile Developer React Native',
+    company: 'AppStudio',
+    stacks: ['React Native', 'JavaScript', 'Firebase'],
+    description: 'Desenvolvedor mobile júnior para criar aplicativos iOS e Android.',
+    deadline: '8 dias',
+    level: 'junior',
+    location: 'Curitiba, PR',
+    type: 'remoto',
+    salary: 'R$ 2.700 - R$ 3.700'
+  },
+  {
+    id: 6,
+    title: 'Backend Python Developer',
+    company: 'Data Systems',
+    stacks: ['Python', 'Django', 'PostgreSQL'],
+    description: 'Desenvolvedor Python júnior para trabalhar com sistemas de dados.',
+    deadline: '9 dias',
+    level: 'junior',
+    location: 'Salvador, BA',
+    type: 'presencial',
+    salary: 'R$ 2.600 - R$ 3.600'
+  },
+  {
+    id: 7,
+    title: 'Frontend Angular Developer',
+    company: 'Enterprise Solutions',
+    stacks: ['Angular', 'TypeScript', 'RxJS'],
+    description: 'Desenvolvedor Angular júnior para aplicações empresariais.',
+    deadline: '7 dias',
+    level: 'junior',
+    location: 'Recife, PE',
+    type: 'remoto',
+    salary: 'R$ 2.900 - R$ 3.900'
+  },
+  {
+    id: 8,
+    title: 'QA Automation Engineer',
+    company: 'Quality Assurance Co',
+    stacks: ['Selenium', 'JavaScript', 'Jest'],
+    description: 'Engenheiro QA júnior para testes automatizados.',
+    deadline: '4 dias',
+    level: 'junior',
+    location: 'Porto Alegre, RS',
+    type: 'presencial',
+    salary: 'R$ 2.300 - R$ 3.300'
+  },
+  {
+    id: 9,
+    title: 'DevOps Engineer',
+    company: 'Cloud Infrastructure',
+    stacks: ['Docker', 'Kubernetes', 'AWS'],
+    description: 'Engenheiro DevOps júnior para gerenciar infraestrutura na nuvem.',
+    deadline: '6 dias',
+    level: 'junior',
+    location: 'Manaus, AM',
+    type: 'remoto',
+    salary: 'R$ 3.200 - R$ 4.200'
+  },
+  {
+    id: 10,
+    title: 'Database Developer',
+    company: 'Data Management',
+    stacks: ['SQL', 'PostgreSQL', 'Redis'],
+    description: 'Desenvolvedor de banco de dados júnior para otimizar queries.',
+    deadline: '5 dias',
+    level: 'junior',
+    location: 'Fortaleza, CE',
+    type: 'remoto',
+    salary: 'R$ 2.800 - R$ 3.800'
   }
-
 ];
-
-export default jobs;
